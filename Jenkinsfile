@@ -11,5 +11,11 @@ pipeline {
                 sh 'ls -alt'
             }
         }
+	stage('Feature1'){
+	    steps {
+	        echo 'Feature1'
+		    sh 'ls -alt'
+	    }
+	}
     }
 }
